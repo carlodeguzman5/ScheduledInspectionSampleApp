@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saperiumdev.samplescheduledinspection.inspection.schedule.ScheduleActivity">
+
+    <LinearLayout
+        android:id="@+id/contentFrame"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/mondayCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"/>
+
+            <TextView
+                android:id="@+id/mondayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mondayCheckbox"
+                android:text="@string/scheduledInspectionScheduleMonday"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mondayCheckbox"
+                android:layout_below="@id/mondayTextView"
+                android:text="@string/scheduledInspectionDefaultSetTime"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/tuesdayCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp" />
+
+            <TextView
+                android:id="@+id/tuesdayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tuesdayCheckbox"
+                android:text="@string/scheduledInspectionScheduleTuesday"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tuesdayCheckbox"
+                android:layout_below="@id/tuesdayTextView"
+                android:text="@string/scheduledInspectionDefaultSetTime"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/wednesdayCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"/>
+
+            <TextView
+                android:id="@+id/wednesdayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/wednesdayCheckbox"
+                android:text="@string/scheduledInspectionScheduleWednesday"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/wednesdayCheckbox"
+                android:layout_below="@id/wednesdayTextView"
+                android:text="@string/scheduledInspectionDefaultSetTime"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/thursdayCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"/>
+
+            <TextView
+                android:id="@+id/thursdayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/thursdayCheckbox"
+                android:text="@string/scheduledInspectionScheduleThursday"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/thursdayCheckbox"
+                android:layout_below="@id/thursdayTextView"
+                android:text="@string/scheduledInspectionDefaultSetTime"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/fridayCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"/>
+
+            <TextView
+                android:id="@+id/fridayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/fridayCheckbox"
+                android:text="@string/scheduledInspectionScheduleFriday"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/fridayCheckbox"
+                android:layout_below="@id/fridayTextView"
+                android:text="@string/scheduledInspectionDefaultSetTime"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/saturdayCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"/>
+
+            <TextView
+                android:id="@+id/saturdayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/saturdayCheckbox"
+                android:text="@string/scheduledInspectionScheduleSaturday"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/saturdayCheckbox"
+                android:layout_below="@id/saturdayTextView"
+                android:text="@string/scheduledInspectionDefaultSetTime"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/sundayCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"/>
+
+            <TextView
+                android:id="@+id/sundayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/sundayCheckbox"
+                android:text="@string/scheduledInspectionScheduleSunday"
+                android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/sundayCheckbox"
+                android:layout_below="@id/sundayTextView"
+                android:text="@string/scheduledInspectionDefaultSetTime"/>
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Scheduled Inspection</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="scheduledInspectionFrontlines">Frontlines</string>
+    <string name="scheduledInspectionFreshtrades">Fresh Trades</string>
+    <string name="scheduledInspectionSchedule">Schedule</string>
+    <string name="scheduledInspectionSnapshots">Snapshots (Optional)</string>
+    <string name="scheduledInspectionNotesHint">Special Instructions</string>
+    <string name="scheduledInspectionSave">Save</string>
+    <string name="scheduledInspectionDiscardDialogTitle">Changes has not been saved.</string>
+    <string name="scheduledInspectionDiscardDialogMessage">Discard Changes?</string>
+
+    <string name="scheduledInspectionScheduleMonday">Monday</string>
+    <string name="scheduledInspectionScheduleTuesday">Tuesday</string>
+    <string name="scheduledInspectionScheduleWednesday">Wednesday</string>
+    <string name="scheduledInspectionScheduleThursday">Thursday</string>
+    <string name="scheduledInspectionScheduleFriday">Friday</string>
+    <string name="scheduledInspectionScheduleSaturday">Saturday</string>
+    <string name="scheduledInspectionScheduleSunday">Sunday</string>
+
+    <string name="scheduledInspectionDefaultSetTime">Set time</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
